@@ -1,4 +1,4 @@
-# STM32F103
+# STM32F103 Status: TESTED
 This is a subcircuit which contains all of the components required for a STM32F103 to function, except for power regulation. It will require a steady 3.3v source of power. The 10 pin JTAG connector has been tested with a Segger J-Link programming cable. Allows for debugging over SWD without any additional configuration. This also provides an I2C bus, but it does not provide an SPI bus yet.
 
 ## Components:
