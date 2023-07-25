@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Footprints")(type "KiCad")(uri "C:/Users/kking/OneDrive/Documents/Subcircuits/Power/0-5v in, 3.3v & 5v out/Footprints")(options "")(descr ""))
+  (lib (name "ASPI-0630LR-100M-T15")(type "KiCad")(uri "C:/Users/kking/OneDrive/Documents/Subcircuits/Power/0-5v in, 3.3v & 5v out/Footprints/ASPI-0630LR-100M-T15")(options "")(descr ""))
+  (lib (name "LPS22HBTR")(type "KiCad")(uri "C:/Users/kking/OneDrive/Documents/Subcircuits/Sensors/Barometers/LPS22HB/Footprints/LPS22HBTR")(options "")(descr ""))
+  (lib (name "JGC42-8828A_CSTNE10M0G550000R0")(type "KiCad")(uri "C:/Users/kking/OneDrive/Documents/Subcircuits/Microcontrollers/STM32F103/Footprints/JGC42-8828A_CSTNE10M0G550000R0 Oscillator/JGC42-8828A_CSTNE10M0G550000R0.pretty")(options "")(descr ""))
+)

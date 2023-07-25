@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\kking\OneDrive\Documents\test pcb\test\test.kicad_sch</source>
+    <date>7/25/2023 3:22:49 PM</date>
+    <tool>Eeschema 7.0.2</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>test.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/regulation/" tstamps="/fc458816-15c2-4116-ab49-f105ef2afdea/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>power.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C13">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="regulation"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/regulation/" tstamps="/fc458816-15c2-4116-ab49-f105ef2afdea/"/>
+      <tstamps>031a910e-7c42-4eaf-933e-40167ed15ff1</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="regulation"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/regulation/" tstamps="/fc458816-15c2-4116-ab49-f105ef2afdea/"/>
+      <tstamps>779c8c3c-29a0-468f-bd4a-1fa79a8f043d</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="regulation"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/regulation/" tstamps="/fc458816-15c2-4116-ab49-f105ef2afdea/"/>
+      <tstamps>e143b528-702b-431c-acce-58cfeeee5ad0</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="regulation"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/regulation/" tstamps="/fc458816-15c2-4116-ab49-f105ef2afdea/"/>
+      <tstamps>a32fe248-d9a6-4cdb-8a68-040fcf27fc5f</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>Diode_SMD:D_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="regulation"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/regulation/" tstamps="/fc458816-15c2-4116-ab49-f105ef2afdea/"/>
+      <tstamps>b20e8f20-7efd-49c1-88a9-1b408b94e865</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_SOD-123F</footprint>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Sheetname" value="regulation"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/regulation/" tstamps="/fc458816-15c2-4116-ab49-f105ef2afdea/"/>
+      <tstamps>eac2564b-b6e1-4ea1-9b3e-fd5340fec7e6</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>10uH</value>
+      <footprint>ASPI-0630LR-100M-T15 10uH inductor:IND_ASPI-0630LR-100M-T15</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value="regulation"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/regulation/" tstamps="/fc458816-15c2-4116-ab49-f105ef2afdea/"/>
+      <tstamps>de02c993-1efc-4c0f-b622-477d4393ee18</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>500</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="regulation"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/regulation/" tstamps="/fc458816-15c2-4116-ab49-f105ef2afdea/"/>
+      <tstamps>9a85c158-4a7c-4da7-9996-0070d59f1989</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>RP400N501A-TR-FE</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <libsource lib="RP400N501A-TR-FE" part="RP400N501A-TR-FE" description=""/>
+      <property name="Sheetname" value="regulation"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/regulation/" tstamps="/fc458816-15c2-4116-ab49-f105ef2afdea/"/>
+      <tstamps>ef7ffff5-a259-4659-b08a-56acb0c86cb7</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>LDL1117S33R</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223</footprint>
+      <fields>
+        <field name="MANUFACTURER">STMicroelectronics</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.8 mm</field>
+        <field name="PARTREV">7</field>
+        <field name="SNAPEDA_PN">LDL1117S33R</field>
+        <field name="STANDARD">IPC 7351B</field>
+      </fields>
+      <libsource lib="LDL1117S33R" part="LDL1117S33R" description=""/>
+      <property name="SNAPEDA_PN" value="LDL1117S33R"/>
+      <property name="PARTREV" value="7"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.8 mm"/>
+      <property name="STANDARD" value="IPC 7351B"/>
+      <property name="MANUFACTURER" value="STMicroelectronics"/>
+      <property name="Sheetname" value="regulation"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/regulation/" tstamps="/fc458816-15c2-4116-ab49-f105ef2afdea/"/>
+      <tstamps>c6b8fd0e-bfc3-4bca-a9fc-2bdf97443a3f</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LDL1117S33R" part="LDL1117S33R">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LDL1117S33R</field>
+        <field name="Footprint">SOT230P700X180-4N</field>
+        <field name="SNAPEDA_PN">LDL1117S33R</field>
+        <field name="PARTREV">7</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.8 mm</field>
+        <field name="STANDARD">IPC 7351B</field>
+        <field name="MANUFACTURER">STMicroelectronics</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VOUT" type="output"/>
+        <pin num="3" name="VIN" type="input"/>
+        <pin num="4" name="VOUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="RP400N501A-TR-FE" part="RP400N501A-TR-FE">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RP400N501A-TR-FE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CE" type="input"/>
+        <pin num="1-UB" name="CE" type="input"/>
+        <pin num="1-UC" name="CE" type="input"/>
+        <pin num="1-UD" name="CE" type="input"/>
+        <pin num="1-UE" name="CE" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="2-UB" name="GND" type="power_in"/>
+        <pin num="2-UC" name="GND" type="power_in"/>
+        <pin num="2-UD" name="GND" type="power_in"/>
+        <pin num="2-UE" name="GND" type="power_in"/>
+        <pin num="3" name="VIN" type="power_in"/>
+        <pin num="3-UB" name="VIN" type="power_in"/>
+        <pin num="3-UC" name="VIN" type="power_in"/>
+        <pin num="3-UD" name="VIN" type="power_in"/>
+        <pin num="3-UE" name="VIN" type="power_in"/>
+        <pin num="4" name="VOUT" type="power_out"/>
+        <pin num="4-UB" name="VOUT" type="power_out"/>
+        <pin num="4-UC" name="VOUT" type="power_out"/>
+        <pin num="4-UD" name="VOUT" type="power_out"/>
+        <pin num="4-UE" name="VOUT" type="power_out"/>
+        <pin num="5" name="LX" type="output"/>
+        <pin num="5-UB" name="LX" type="output"/>
+        <pin num="5-UC" name="LX" type="output"/>
+        <pin num="5-UD" name="LX" type="output"/>
+        <pin num="5-UE" name="LX" type="output"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets/>
+</export>
