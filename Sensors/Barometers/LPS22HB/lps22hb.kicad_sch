@@ -267,7 +267,7 @@
   (symbol (lib_id "power:GND") (at 134.62 81.28 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 011b4cd8-7ab7-4216-99f1-a6869492015f)
-    (property "Reference" "#PWR?" (at 128.27 81.28 0)
+    (property "Reference" "#PWR050" (at 128.27 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 130.81 81.915 90)
@@ -281,14 +281,14 @@
     )
     (pin "1" (uuid 1d74eb94-ae86-4e85-a7ea-a6e8a52ca0e8))
     (instances
-      (project "skydiving-altimeter"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/25087f50-b4bd-4ba8-9294-4cb0f29516ca"
-          (reference "#PWR?") (unit 1)
+      (project "avc-computer"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0097ce40-7767-41a4-a694-1129b95a764c/e9b8be52-4926-4d81-8d1e-4fa7fd6aec68"
+          (reference "#PWR050") (unit 1)
         )
       )
       (project "test"
         (path "/fdf4640f-6031-4faf-a4c3-82c41668722e/cf3ff100-abac-439e-b69e-f80961e3457f"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -297,7 +297,7 @@
   (symbol (lib_id "power:GND") (at 162.56 91.44 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 50cbbe88-b396-44b0-9d7b-57991e0b4b61)
-    (property "Reference" "#PWR?" (at 168.91 91.44 0)
+    (property "Reference" "#PWR053" (at 168.91 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 165.1 91.44 90)
@@ -311,14 +311,14 @@
     )
     (pin "1" (uuid 4da2ee8c-699c-4fd3-88c2-dc7ec862f31d))
     (instances
-      (project "skydiving-altimeter"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/25087f50-b4bd-4ba8-9294-4cb0f29516ca"
-          (reference "#PWR?") (unit 1)
+      (project "avc-computer"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0097ce40-7767-41a4-a694-1129b95a764c/e9b8be52-4926-4d81-8d1e-4fa7fd6aec68"
+          (reference "#PWR053") (unit 1)
         )
       )
       (project "test"
         (path "/fdf4640f-6031-4faf-a4c3-82c41668722e/cf3ff100-abac-439e-b69e-f80961e3457f"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -327,7 +327,7 @@
   (symbol (lib_id "Sensor_Pressure:LPS22HB") (at 147.32 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 823cabdd-2199-414f-985a-fad8e5161173)
-    (property "Reference" "U?" (at 135.89 94.615 0)
+    (property "Reference" "U8" (at 135.89 94.615 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LPS22HB" (at 135.89 97.155 0)
@@ -350,14 +350,14 @@
     (pin "8" (uuid 41923246-8ff2-4bc1-94fd-41e2b2f7a184))
     (pin "9" (uuid 64316145-3fa0-47e0-81ec-c36bde7444cb))
     (instances
-      (project "skydiving-altimeter"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/25087f50-b4bd-4ba8-9294-4cb0f29516ca"
-          (reference "U?") (unit 1)
+      (project "avc-computer"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0097ce40-7767-41a4-a694-1129b95a764c/e9b8be52-4926-4d81-8d1e-4fa7fd6aec68"
+          (reference "U8") (unit 1)
         )
       )
       (project "test"
         (path "/fdf4640f-6031-4faf-a4c3-82c41668722e/cf3ff100-abac-439e-b69e-f80961e3457f"
-          (reference "U1") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
     )
@@ -366,7 +366,7 @@
   (symbol (lib_id "Device:C") (at 138.43 81.28 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a27b4866-c083-4dd0-a101-11cf102b39b3)
-    (property "Reference" "C?" (at 138.43 74.93 90)
+    (property "Reference" "C13" (at 138.43 74.93 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100nF" (at 138.43 77.47 90)
@@ -381,14 +381,14 @@
     (pin "1" (uuid 2ba4f054-b861-4efc-9eb0-5ee237b61211))
     (pin "2" (uuid 2f6ad8a2-bea8-4d93-ac27-06c1c680fecc))
     (instances
-      (project "skydiving-altimeter"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/25087f50-b4bd-4ba8-9294-4cb0f29516ca"
-          (reference "C?") (unit 1)
+      (project "avc-computer"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0097ce40-7767-41a4-a694-1129b95a764c/e9b8be52-4926-4d81-8d1e-4fa7fd6aec68"
+          (reference "C13") (unit 1)
         )
       )
       (project "test"
         (path "/fdf4640f-6031-4faf-a4c3-82c41668722e/cf3ff100-abac-439e-b69e-f80961e3457f"
-          (reference "C1") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -397,7 +397,7 @@
   (symbol (lib_id "power:GND") (at 142.24 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b4c6cafb-30b4-4b50-9c39-746346eb910a)
-    (property "Reference" "#PWR?" (at 142.24 113.03 0)
+    (property "Reference" "#PWR051" (at 142.24 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 140.97 110.49 0)
@@ -411,14 +411,14 @@
     )
     (pin "1" (uuid 956a0d10-0d2e-4153-9203-e650e7518f30))
     (instances
-      (project "skydiving-altimeter"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/25087f50-b4bd-4ba8-9294-4cb0f29516ca"
-          (reference "#PWR?") (unit 1)
+      (project "avc-computer"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0097ce40-7767-41a4-a694-1129b95a764c/e9b8be52-4926-4d81-8d1e-4fa7fd6aec68"
+          (reference "#PWR051") (unit 1)
         )
       )
       (project "test"
         (path "/fdf4640f-6031-4faf-a4c3-82c41668722e/cf3ff100-abac-439e-b69e-f80961e3457f"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -427,7 +427,7 @@
   (symbol (lib_id "power:GND") (at 144.78 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d0b4b88c-b458-4294-b1ec-6da95b0a94e6)
-    (property "Reference" "#PWR?" (at 144.78 113.03 0)
+    (property "Reference" "#PWR052" (at 144.78 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 146.05 110.49 0)
@@ -441,14 +441,14 @@
     )
     (pin "1" (uuid e5a8bf4c-ea91-404c-9a90-6422e15cfe69))
     (instances
-      (project "skydiving-altimeter"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/25087f50-b4bd-4ba8-9294-4cb0f29516ca"
-          (reference "#PWR?") (unit 1)
+      (project "avc-computer"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0097ce40-7767-41a4-a694-1129b95a764c/e9b8be52-4926-4d81-8d1e-4fa7fd6aec68"
+          (reference "#PWR052") (unit 1)
         )
       )
       (project "test"
         (path "/fdf4640f-6031-4faf-a4c3-82c41668722e/cf3ff100-abac-439e-b69e-f80961e3457f"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )

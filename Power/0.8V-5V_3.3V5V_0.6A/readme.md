@@ -1,5 +1,5 @@
 # RP400 & LDL1117 Based Power Regulation Subcircuit. 0-5V in, 3.3V & 5V out. Status: TESTED
-This is a "buck" power regulation subcircuit which is able to step up voltages to output 3.3v and 5v. It contains an indicator LED to allow the user to verify the status of the 3.3v output.
+This is a "boost" power regulation subcircuit which is able to step up voltages to output 3.3v and 5v. It contains an indicator LED to allow the user to verify the status of the 3.3v output.
 
 ## Components:
 ![](Schematic.png)
