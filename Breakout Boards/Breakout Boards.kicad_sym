@@ -96,10 +96,10 @@
         (number "8" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "BMP388_0_1"
+    (symbol "BMP388_1_1"
       (rectangle (start 0 3.81) (end 8.89 -20.32)
         (stroke (width 0) (type default))
-        (fill (type none))
+        (fill (type background))
       )
     )
   )
@@ -236,10 +236,10 @@
         (number "9" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "LSM9DS1_0_1"
+    (symbol "LSM9DS1_1_1"
       (rectangle (start 0 2.54) (end 10.16 -34.29)
         (stroke (width 0) (type default))
-        (fill (type none))
+        (fill (type background))
       )
     )
   )
