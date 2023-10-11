@@ -18,7 +18,7 @@
     (tstamp f5683eee-5efa-469d-85b8-a2e78b316b56)
   )
   (fp_rect (start -16.51 -10.16) (end 16.51 10.16)
-    (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 6d4088d2-d4c0-41e5-8382-7e308a6b4621))
+    (stroke (width 0.1) (type default)) (fill none) (layer "F.CrtYd") (tstamp 6d4088d2-d4c0-41e5-8382-7e308a6b4621))
   (pad "1" thru_hole circle (at -10.16 7.62) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 238f27c5-62d0-4e14-bf50-e1ea15e281cd))
   (pad "2" thru_hole circle (at -7.62 7.62) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp eddf5c8e-8335-44e4-a3fa-e80180d11ff7))
   (pad "3" thru_hole circle (at -5.08 7.62) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 3ef04c13-ee42-4a6d-8816-d3f48e1635ff))
