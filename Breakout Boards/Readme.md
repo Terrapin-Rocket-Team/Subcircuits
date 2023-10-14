@@ -12,3 +12,5 @@ To add this library to your KiCad environment follow these steps:
 - Move "Breakout Boards.bak" to your KiCad/[version]/symbols/
 - Move "Breakout Boards.kicadsym" to your KiCad/[version]/symbols/
 - Move "Breakout Boards.pretty" to your Kicad/[version]/footprints/
+
+[REMINDER TO ADD THROUGH SYMBOL]
